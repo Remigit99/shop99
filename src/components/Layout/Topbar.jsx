@@ -22,12 +22,12 @@ const Topbar = () => {
 
         <div className=" flex justify-between align-center">
           <div className="flex justify-center item-center gap-2">
-            <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! </p>
-            <p className="font-bold">Shop Now </p>
+            <p className="text-[12px]"> Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! </p>
+            <p className="text-[12px] font-bold">Shop Now </p>
           </div>
         </div>
         <div>
-          <select className="apperance-none bg-black text-white" >
+          <select className="border-none outline-0 bg-black text-white" >
             <option>English</option>
             <option>French</option>
             <option>Spanish</option>

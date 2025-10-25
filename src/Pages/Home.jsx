@@ -1,8 +1,12 @@
-import React from 'react'
+import FlashSales from "../components/Layout/FlashSales"
+import Hero from "../components/Layout/Hero"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Hero />
+      <FlashSales/>
+    </div>
   )
 }
 
