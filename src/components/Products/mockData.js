@@ -10,6 +10,7 @@ export const cartMockData = [
         color: "Red",
         quantity: 1,
         price: 523,
+        oldPrice: 485,
         image: "https://picsum.photos/200?random=1",
     },
     {
@@ -19,7 +20,8 @@ export const cartMockData = [
         color: "Red",
         quantity: 1,
         price: 523,
-        image: "https://picsum.photos/200?random=1",
+        oldPrice: 485,
+        image: "https://picsum.photos/200?random=2",
     },
     {
         productId: 3,
@@ -28,7 +30,8 @@ export const cartMockData = [
         color: "Red",
         quantity: 1,
         price: 523,
-        image: "https://picsum.photos/200?random=1",
+        oldPrice: 485,
+        image: "https://picsum.photos/200?random=3",
     },
     {
         productId: 4,
@@ -37,7 +40,8 @@ export const cartMockData = [
         color: "Red",
         quantity: 1,
         price: 523,
-        image: "https://picsum.photos/200?random=1",
+        oldPrice: 485,
+        image: "https://picsum.photos/200?random=4",
     },
     
     {
@@ -47,7 +51,8 @@ export const cartMockData = [
         color: "Red",
         quantity: 1,
         price: 523,
-        image: "https://picsum.photos/200?random=1",
+        oldPrice: 485,
+        image: "https://picsum.photos/200?random=5",
     },
     
     {
@@ -57,6 +62,7 @@ export const cartMockData = [
         color: "Red",
         quantity: 1,
         price: 523,
-        image: "https://picsum.photos/200?random=1",
+        oldPrice: 485,
+        image: "https://picsum.photos/200?random=6",
     },
 ]

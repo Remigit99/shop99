@@ -28,7 +28,7 @@ const Navbar = () => {
         </Link>
 
         {/* NavItems */}
-        <div className='flex gap-6'>
+        <div className='hidden md:flex gap-6'>
           <Link className='text-[16px] font-bold hover:text-gray-700' to="/">MEN</Link>
           <Link className='text-[16px] font-bold hover:text-gray-700' to="/">WOMEN</Link>
           <Link className='text-[16px] font-bold hover:text-gray-700' to="/">KIDS</Link>
@@ -38,8 +38,11 @@ const Navbar = () => {
         {/* Search, wishlist, cart, user profile */}
         <div >
           {/* Search Box */}
-          <div className='flex gap-6'>
+          <div className='flex gap-2'>
 
+            <div className='hidden md:flex gap-6'>
+
+           
 
             {/* User Profile */}
             <Link to="/">
@@ -58,6 +61,7 @@ const Navbar = () => {
               <span className='absolute -top-1.5 -right-4 text-white bg-amber-700 w-6 h-6 rounded-full'> 10 </span>
             </button>
 
+ </div>
             {/* Menu Button */}
             <CgMenuRightAlt className='text-2xl md:hidden' />
           </div>

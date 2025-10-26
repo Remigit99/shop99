@@ -7,7 +7,7 @@ import CArrowRight from "../../assets/icons/chevron_right.svg"
 const Hero = () => {
     return (
         <section>
-            <div className="container grid grid-cols-5 mx-auto py-6 gap-6">
+            <div className="container grid grid-cols-1 md:grid-cols-5 mx-auto py-6 gap-6">
                 <div
                     className="flex flex-col gap-2.5 col-span-1">
                     <Link to="/" className="flex justify-between items-center">
@@ -53,17 +53,17 @@ const Hero = () => {
                         <p>Health & Beauty</p>
                         <img src={CArrowRight} alt="Chevron_arrow_right" />
                     </Link>
-                    
+
                 </div>
-                <div className="bg-black col-span-4  text-white flex justify-between items-center">
-                    <div className="pl-6">
-                        <div >
+                <div className="bg-black col-span-1 md:col-span-4  text-white flex justify-between items-center">
+                    <div className="hidden pl-6">
+                        <div className="" >
                             <div className="flex gap-2 items-center">
-                            <img src={AppLogo} alt="App_Logo" />
-                            <p className="text-gray-300">iPhone 14 Series</p>
-</div>
+                                <img src={AppLogo} alt="App_Logo" />
+                                <p className="text-gray-300">iPhone 14 Series</p>
+                            </div>
                             <h2 className="text-5xl font-bold py-10 leading-16">
-                                Up to 12% <br/>
+                                Up to 12% <br />
                                 off Voucher
 
                             </h2>
